@@ -51,7 +51,8 @@ CHARTS = {
     "income_gap": ("所得の層ごとの収入と物価の伸びの差（2021年10月〜）",
                    "棒が左（マイナス）にある階級ほど、手取りの伸びが物価に届いていない。どの所得の層まで物価高の影響が及んでいるかを見る。"
                    "低所得は、毎月の家計の統計がないため、主な収入源である最低賃金（フルタイム換算）と基礎年金の伸びで示す。"
-                   "中所得・高所得は二人以上の勤労者世帯の年収5階級で、かっこ内は各階級の平均の年収と手取り（月額）。"),
+                   "低所得は単身などの1人の収入、中所得・高所得は二人以上の勤労者世帯の年収5階級で、比べている世帯が違う。"
+                   "かっこ内は各階級の平均の年収と手取り（月額）。"),
     "oil_kerosene": ("円建ての原油価格と北海道の灯油など（前年比）",
                      "世界の原油価格の動きが、おおむね2か月遅れて北海道の灯油などの物価に届く様子。"),
     "pension_prices": ("年金と北海道の物価（2021年4月＝100）",
@@ -230,8 +231,8 @@ def quintile_label(changes, series_id: str, label: str) -> str:
     level = _monthly_level(changes, series_id)
     if level and level >= 10000:  # yen (skips test data that is not a yen amount)
         parts.append(f"手取り 月約{level / 10000:.0f}万円")
-    head = f"{label} {klass}" if klass else label
-    return f"{head}（{'・'.join(parts)}）" if parts else head
+    head = f"{label} {klass}【二人以上】" if klass else label
+    return f"{head}\n（{'・'.join(parts)}）" if parts else head
 
 
 def _indexed_point(changes, series_id: str) -> pd.Series:
@@ -297,8 +298,8 @@ def low_income_gaps(changes, ref: dict[str, str]) -> pd.DataFrame:
     the Hokkaido minimum wage (full-time equivalent) and the basic pension, against prices."""
     rows = []
     for sid, price_id, label in (
-        ("HKD_MIN_WAGE", "CPI_HKD_ALL", "最低賃金で働く人"),
-        ("PENSION_INDEX_JP", "CPI_JP_ALL", "基礎年金だけで暮らす人"),
+        ("HKD_MIN_WAGE", "CPI_HKD_ALL", "最低賃金で働く人【単身など】"),
+        ("PENSION_INDEX_JP", "CPI_JP_ALL", "基礎年金だけで暮らす人【単身など】"),
     ):
         # these change once a year (step series that start in 2021), so compare the latest month
         # with the base month directly instead of 12-month averages
@@ -310,10 +311,11 @@ def low_income_gaps(changes, ref: dict[str, str]) -> pd.DataFrame:
         detail = ""
         try:
             if sid == "HKD_MIN_WAGE":
-                wage = _series(changes, sid).dropna().iloc[-1]
-                detail = f"（北海道 時給{wage:,.0f}円、フルタイムで年約{wage * float(ref['fulltime_hours']) / 10000:.0f}万円）"
+                wage = _series(changes, sid).dropna().loc[:last].iloc[-1]  # the wage in the compared month
+                detail = (f"\n（北海道 時給{wage:,.0f}円〔{last:%Y年%m月}〕・"
+                          f"フルタイムで年約{wage * float(ref['fulltime_hours']) / 10000:.0f}万円）")
             else:
-                detail = f"（満額 年約{float(ref['basic_pension_monthly']) * 12 / 10000:.0f}万円）"
+                detail = f"\n（満額 年約{float(ref['basic_pension_monthly']) * 12 / 10000:.0f}万円）"
         except (KeyError, ValueError, IndexError):
             pass
         rows.append({"series_id": sid, "label": f"低所得 {label}{detail}", "color": LOW_COLOR, "date": last,
@@ -329,7 +331,7 @@ def chart_income_gap(changes, path: Path):
         return None
     gaps["income_word"] = "手取り"
     gaps = pd.concat([low_income_gaps(changes, ref), gaps], ignore_index=True)
-    fig, ax = plt.subplots(figsize=(10, 0.5 * len(gaps) + 2.4))
+    fig, ax = plt.subplots(figsize=(10, 0.62 * len(gaps) + 2.6))
     _title(fig, CHARTS["income_gap"][0])
     y = np.arange(len(gaps))
     ax.barh(y, gaps["gap"], color=gaps["color"])
@@ -356,10 +358,12 @@ def chart_income_gap(changes, path: Path):
                  f"（住民税非課税の目安は単身{ref.get('nontax_single', '')}万・夫婦{ref.get('nontax_couple', '')}万・"
                  f"3人約{ref.get('nontax_3', '')}万・4人約{ref.get('nontax_4', '')}万円）、\n"
                  f"中所得＝中央値の{float(ref.get('middle_high_ratio', 2.0)):.0f}倍（約{float(ref['median']) * float(ref.get('middle_high_ratio', 2.0)):.0f}万円）まで、"
-                 "高所得＝それより上。低所得の世帯の手取りは毎月の統計がないため、主な収入源（最低賃金・基礎年金）の伸びで示す。",
+                 "高所得＝それより上。\n"
+                 "対象：【二人以上】＝二人以上の勤労者世帯の手取り。【単身など】＝1人の収入（最低賃金・基礎年金）。"
+                 "低所得の世帯の手取りは毎月の統計がないため、主な収入源で示す。",
                  fontsize=8, color=INK)
     return _finish(fig, ax, path, "総務省「家計調査」「消費者物価指数」、厚生労働省「国民生活基礎調査」・年金額、北海道労働局（最低賃金）",
-                   bottom=0.14 if ref else 0.04)
+                   bottom=0.17 if ref else 0.04)
 
 
 def chart_fuel_subsidies(changes, events, path: Path):

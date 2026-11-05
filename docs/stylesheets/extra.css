@@ -1,0 +1,5 @@
+/* tables with long Japanese text: wrap instead of overflowing */
+.md-typeset table:not([class]) { font-size: 0.72rem; }
+.md-typeset table:not([class]) td { vertical-align: top; }
+.md-typeset img[src$=".svg"] { width: 100%; max-width: 820px; background: #fff; border-radius: 4px; }
+.md-typeset .caption { color: var(--md-default-fg-color--light); font-size: 0.7rem; margin-top: -0.6rem; }

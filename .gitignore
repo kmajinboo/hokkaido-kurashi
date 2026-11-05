@@ -1,0 +1,11 @@
+site/
+__pycache__/
+.env
+.env.*
+# run outputs (main.py is run in the working repository, not here)
+logs/
+output/
+data/raw/
+data/processed/
+data/feature/
+powerbi/

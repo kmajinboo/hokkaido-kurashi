@@ -1,0 +1,60 @@
+﻿series_id,active,layer,category,name,unit,frequency,source,source_id,source_options,note,compare
+FEDFUNDS,1,世界,金利,米国政策金利（FF金利、月平均）,%,M,fred,FEDFUNDS,,為替を通じて日本の物価に波及,yoy_diff
+USDJPY,1,世界,為替,ドル円為替レート（月平均）,円/ドル,M,fred,EXJPUS,,円安は輸入物価を押し上げる,yoy_pct
+OIL_WTI,1,世界,エネルギー,原油価格 WTI（月平均）,ドル/バレル,M,fred,MCOILWTICO,,国際的な原油価格の代表,yoy_pct
+OIL_DUBAI,1,世界,エネルギー,原油価格 ドバイ（月平均）,ドル/バレル,M,fred,POILDUBUSDM,,日本が輸入する中東産原油の指標。灯油・ガソリンに波及,yoy_pct
+LNG_ASIA,1,世界,エネルギー,LNG価格 アジア（月平均）,ドル/百万BTU,M,fred,PNGASJPUSDM,,電気・ガス料金に波及,yoy_pct
+FOOD_GLOBAL,1,世界,食料,国際的な食料価格指数,指数（2016年=100）,M,fred,PFOODINDEXM,,小麦・油脂などの輸入食料に波及,yoy_pct
+CPI_JP_ALL,1,国内,物価,全国 消費者物価指数 総合,指数（2025年=100）,M,estat,0004052037,cdArea=00000;cdCat01=0001;cdTab=1,消費者物価指数（2025年基準）,yoy_pct
+CPI_JP_CORE,1,国内,物価,全国 消費者物価指数 生鮮食品を除く総合,指数（2025年=100）,M,estat,0004052037,cdArea=00000;cdCat01=0161;cdTab=1,物価の動きを見る代表的な指数,yoy_pct
+CPI_JP_FOOD,1,国内,食料,全国 消費者物価指数 食料,指数（2025年=100）,M,estat,0004052037,cdArea=00000;cdCat01=0002;cdTab=1,,yoy_pct
+CPI_JP_ELEC,1,国内,エネルギー,全国 消費者物価指数 電気代,指数（2025年=100）,M,estat,0004052037,cdArea=00000;cdCat01=0056;cdTab=1,,yoy_pct
+CPI_JP_KEROSENE,1,国内,エネルギー,全国 消費者物価指数 灯油,指数（2025年=100）,M,estat,0004052037,cdArea=00000;cdCat01=3701;cdTab=1,,yoy_pct
+JOBS_RATIO_JP,1,国内,雇用,全国 有効求人倍率（除学卒）,倍,M,estat,0003446462,cdCat01=2090;cdTab=200,景気動向指数の個別系列（一致系列C9）,yoy_diff
+NEW_JOBS_JP,1,国内,雇用,全国 新規求人数（除学卒）,人,M,estat,0003446462,cdCat01=1030;cdTab=200,景気動向指数の個別系列（先行系列L3）。雇用の変化を早めに示す,yoy_pct
+UNEMP_JP,1,国内,雇用,全国 完全失業率,%,M,estat,0003446462,cdCat01=3060;cdTab=200,景気動向指数の個別系列（遅行系列Lg6）,yoy_diff
+WAGE_MFG_JP,1,国内,賃金,全国 きまって支給する給与（製造業、名目）,指数（2020年=100）,M,estat,0003446462,cdCat01=3070;cdTab=200,景気動向指数の個別系列（遅行系列Lg7）,yoy_pct
+HH_SPEND_JP,1,国内,家計,全国 家計消費支出（勤労者世帯、前年同月比）,%,M,estat,0003446462,cdCat01=3040;cdTab=200,景気動向指数の個別系列（遅行系列Lg4）,as_is
+RETAIL_JP,1,国内,家計,全国 商業販売額（小売業、前年同月比）,%,M,estat,0003446462,cdCat01=2060;cdTab=200,景気動向指数の個別系列（一致系列C6）,as_is
+CONSUMER_CONF_JP,1,国内,家計,全国 消費者態度指数,指数,M,estat,0003446462,cdCat01=1060;cdTab=200,景気動向指数の個別系列（先行系列L6）。暮らし向きの見通し,yoy_diff
+HH_INCOME_JP,1,国内,家計,全国 実収入（二人以上の勤労者世帯、月額）,円,M,estat,0002070001,cdArea=00000;cdCat01=019;cdCat02=04,家計調査。世帯全体の税込み収入（世帯主以外の収入も含む）,yoy_pct
+HH_DISPOSABLE_JP,1,国内,家計,全国 可処分所得（二人以上の勤労者世帯、月額）,円,M,estat,0002070001,cdArea=00000;cdCat01=233;cdCat02=04,家計調査。実収入から税・社会保険料を引いた手取り,yoy_pct
+HH_CONSUMPTION_WORKER_JP,1,国内,家計,全国 消費支出（二人以上の勤労者世帯、月額）,円,M,estat,0002070001,cdArea=00000;cdCat01=059;cdCat02=04,家計調査,yoy_pct
+HH_DISPOSABLE_Q1_JP,1,国内,家計,全国 可処分所得（勤労者世帯のうち年収が低い20%、月額）,円,M,estat,0002070004,cdArea=00000;cdCat01=233;cdCat02=04;cdCat03=01,家計調査 年間収入五分位の第Ⅰ分位。生活相談の対象に近い層,yoy_pct
+HH_CONSUMPTION_Q1_JP,1,国内,家計,全国 消費支出（勤労者世帯のうち年収が低い20%、月額）,円,M,estat,0002070004,cdArea=00000;cdCat01=059;cdCat02=04;cdCat03=01,家計調査 年間収入五分位の第Ⅰ分位,yoy_pct
+HH_DISPOSABLE_Q2_JP,1,国内,家計,全国 可処分所得（勤労者世帯のうち年収が下から20〜40%、月額）,円,M,estat,0002070004,cdArea=00000;cdCat01=233;cdCat02=04;cdCat03=02,家計調査 年間収入五分位の第Ⅱ分位（所得のグラデーションを見るため）,yoy_pct
+HH_DISPOSABLE_Q3_JP,1,国内,家計,全国 可処分所得（勤労者世帯のうち年収が中位（40〜60%）、月額）,円,M,estat,0002070004,cdArea=00000;cdCat01=233;cdCat02=04;cdCat03=03,家計調査 年間収入五分位の第Ⅲ分位（所得のグラデーションを見るため）,yoy_pct
+HH_DISPOSABLE_Q4_JP,1,国内,家計,全国 可処分所得（勤労者世帯のうち年収が上から20〜40%、月額）,円,M,estat,0002070004,cdArea=00000;cdCat01=233;cdCat02=04;cdCat03=04,家計調査 年間収入五分位の第Ⅳ分位（所得のグラデーションを見るため）,yoy_pct
+HH_DISPOSABLE_Q5_JP,1,国内,家計,全国 可処分所得（勤労者世帯のうち年収が高い20%、月額）,円,M,estat,0002070004,cdArea=00000;cdCat01=233;cdCat02=04;cdCat03=05,家計調査 年間収入五分位の第Ⅴ分位（所得のグラデーションを見るため）,yoy_pct
+HH_ANNUAL_INCOME_Q1_JP,1,国内,家計,全国 年間収入（勤労者世帯のうち年収が低い20%）,万円,M,estat,0002070004,cdArea=00000;cdCat01=264;cdCat02=04;cdCat03=01,家計調査 年間収入五分位の各階級の平均年収（グラフの階級名に添える参考値）,yoy_pct
+HH_ANNUAL_INCOME_Q2_JP,1,国内,家計,全国 年間収入（勤労者世帯のうち年収が下から20〜40%）,万円,M,estat,0002070004,cdArea=00000;cdCat01=264;cdCat02=04;cdCat03=02,家計調査 年間収入五分位の各階級の平均年収（グラフの階級名に添える参考値）,yoy_pct
+HH_ANNUAL_INCOME_Q3_JP,1,国内,家計,全国 年間収入（勤労者世帯のうち年収が中位（40〜60%））,万円,M,estat,0002070004,cdArea=00000;cdCat01=264;cdCat02=04;cdCat03=03,家計調査 年間収入五分位の各階級の平均年収（グラフの階級名に添える参考値）,yoy_pct
+HH_ANNUAL_INCOME_Q4_JP,1,国内,家計,全国 年間収入（勤労者世帯のうち年収が上から20〜40%）,万円,M,estat,0002070004,cdArea=00000;cdCat01=264;cdCat02=04;cdCat03=04,家計調査 年間収入五分位の各階級の平均年収（グラフの階級名に添える参考値）,yoy_pct
+HH_ANNUAL_INCOME_Q5_JP,1,国内,家計,全国 年間収入（勤労者世帯のうち年収が高い20%）,万円,M,estat,0002070004,cdArea=00000;cdCat01=264;cdCat02=04;cdCat03=05,家計調査 年間収入五分位の各階級の平均年収（グラフの階級名に添える参考値）,yoy_pct
+PENSION_INDEX_JP,1,国内,年金,年金額（基礎年金、2021年度=100）,指数（2021年度=100）,M,manual,PENSION_INDEX,fill=forward,毎年4月の改定率を積み上げた指数。68歳以上の既に受け取っている人の改定率。年金で暮らす世帯の収入の目安,yoy_pct
+CPI_HKD_ALL,1,北海道,物価,北海道 消費者物価指数 総合,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0001;cdTab=1,地域コード00042（北海道地方）,yoy_pct
+CPI_HKD_CORE,1,北海道,物価,北海道 消費者物価指数 生鮮食品を除く総合,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0161;cdTab=1,,yoy_pct
+CPI_HKD_FOOD,1,北海道,食料,北海道 消費者物価指数 食料,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0002;cdTab=1,,yoy_pct
+CPI_HKD_HEALTH,1,北海道,物価,北海道 消費者物価指数 保健医療,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0107;cdTab=1,医薬品・医療用品・医療サービス（窓口負担）を含む,yoy_pct
+CPI_HKD_TOBACCO,1,北海道,物価,北海道 消費者物価指数 たばこ,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0155;cdTab=1,税の改正で段階的に上がることがある,yoy_pct
+CPI_HKD_ALCOHOL,1,北海道,物価,北海道 消費者物価指数 酒類,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0041;cdTab=1,,yoy_pct
+CPI_HKD_ELEC,1,北海道,エネルギー,北海道 消費者物価指数 電気代,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0056;cdTab=1,,yoy_pct
+CPI_HKD_OTHER_FUEL,1,北海道,エネルギー,北海道 消費者物価指数 他の光熱（灯油など）,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0058;cdTab=1,中分類。灯油は地域別の品目指数がないため、灯油を含む「他の光熱」を使う,yoy_pct
+CPI_HKD_UTIL,1,北海道,エネルギー,北海道 消費者物価指数 光熱・水道,指数（2025年=100）,M,estat,0004052037,cdArea=00042;cdCat01=0054;cdTab=1,,yoy_pct
+HH_INCOME_HKD,1,北海道,家計,北海道 実収入（二人以上の勤労者世帯、月額）,円,M,estat,0002070001,cdArea=00042;cdCat01=019;cdCat02=04,家計調査（北海道地方）。調査世帯が少なく月ごとの振れが大きい,yoy_pct
+HH_DISPOSABLE_HKD,1,北海道,家計,北海道 可処分所得（二人以上の勤労者世帯、月額）,円,M,estat,0002070001,cdArea=00042;cdCat01=233;cdCat02=04,家計調査（北海道地方）。調査世帯が少なく月ごとの振れが大きい,yoy_pct
+HH_CONSUMPTION_WORKER_HKD,1,北海道,家計,北海道 消費支出（二人以上の勤労者世帯、月額）,円,M,estat,0002070001,cdArea=00042;cdCat01=059;cdCat02=04,家計調査（北海道地方）。調査世帯が少なく月ごとの振れが大きい,yoy_pct
+HKD_MIN_WAGE,1,北海道,賃金,北海道 最低賃金（時間額）,円,M,manual,HKD_MIN_WAGE,fill=forward,毎年10月ごろ改定。パートなど低賃金で働く人の時給の目安,yoy_pct
+SINGLE_WORKER_DISPOSABLE_HT,1,北海道,家計,北海道・東北 可処分所得（単身の勤労者世帯、月平均）,円,Q,estat,0003005368,cdArea=00041;cdCat01=233;cdCat02=22,家計調査 単身世帯（四半期）。北海道だけの数値はなく、北海道・東北地方の合計。調査世帯が少なく振れが大きい,yoy_pct
+SINGLE_WORKER_CONSUMPTION_HT,1,北海道,家計,北海道・東北 消費支出（単身の勤労者世帯、月平均）,円,Q,estat,0003005368,cdArea=00041;cdCat01=059;cdCat02=22,家計調査 単身世帯（四半期）。北海道だけの数値はなく、北海道・東北地方の合計。調査世帯が少なく振れが大きい,yoy_pct
+SINGLE_CONSUMPTION_HT,1,北海道,家計,北海道・東北 消費支出（単身世帯全体、月平均）,円,Q,estat,0003005368,cdArea=00041;cdCat01=059;cdCat02=21,家計調査 単身世帯（四半期）。勤労者以外（高齢の無職など）も含む単身世帯全体。北海道・東北地方の合計。調査世帯が少なく振れが大きい,yoy_pct
+KEROSENE_PRICE_HKD,1,北海道,エネルギー,灯油価格 全道,円/1L（配達）,M,hokkaido_monitor,灯油:全道,,北海道消費生活モニター価格動向調査。毎月10日現在,yoy_pct
+KEROSENE_PRICE_DOHOKU,1,北海道,エネルギー,灯油価格 道北,円/1L（配達）,M,hokkaido_monitor,灯油:道北,,北海道消費生活モニター価格動向調査。毎月10日現在。道北は上川・留萌・宗谷を含む圏域,yoy_pct
+KEROSENE_PRICE_TOKACHI,1,北海道,エネルギー,灯油価格 十勝,円/1L（配達）,M,hokkaido_monitor,灯油:十勝,,北海道消費生活モニター価格動向調査。毎月10日現在,yoy_pct
+LPG_PRICE_HKD,1,北海道,エネルギー,プロパンガス価格 全道,円/5㎥,M,hokkaido_monitor,プロパンガス:全道,,北海道消費生活モニター価格動向調査,yoy_pct
+LPG_PRICE_DOHOKU,1,北海道,エネルギー,プロパンガス価格 道北,円/5㎥,M,hokkaido_monitor,プロパンガス:道北,,北海道消費生活モニター価格動向調査。道北は上川・留萌・宗谷を含む圏域,yoy_pct
+LPG_PRICE_TOKACHI,1,北海道,エネルギー,プロパンガス価格 十勝,円/5㎥,M,hokkaido_monitor,プロパンガス:十勝,,北海道消費生活モニター価格動向調査,yoy_pct
+GASOLINE_PRICE_HKD,1,北海道,エネルギー,ガソリン価格 全道,円/1L（レギュラー）,M,hokkaido_monitor,ガソリン:全道,,北海道消費生活モニター価格動向調査,yoy_pct
+GASOLINE_PRICE_DOHOKU,1,北海道,エネルギー,ガソリン価格 道北,円/1L（レギュラー）,M,hokkaido_monitor,ガソリン:道北,,北海道消費生活モニター価格動向調査。道北は上川・留萌・宗谷を含む圏域,yoy_pct
+GASOLINE_PRICE_TOKACHI,1,北海道,エネルギー,ガソリン価格 十勝,円/1L（レギュラー）,M,hokkaido_monitor,ガソリン:十勝,,北海道消費生活モニター価格動向調査,yoy_pct
+HKD_JOBS_RATIO,0,北海道,雇用,北海道 有効求人倍率（季節調整値）,倍,M,manual,HKD_JOBS_RATIO,,北海道労働局の公表資料から手入力。入力したら active を 1 に,yoy_diff

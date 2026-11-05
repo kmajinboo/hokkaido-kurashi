@@ -1,0 +1,16 @@
+# ---------- 基本 ----------
+pandas
+numpy
+requests
+
+# ---------- 環境変数 ----------
+python-dotenv
+
+# ---------- Database ----------
+sqlalchemy
+psycopg2-binary
+
+# ---------- AI report generation: install either or both providers ----------
+google-genai
+anthropic
+matplotlib>=3.8

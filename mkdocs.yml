@@ -1,0 +1,35 @@
+site_name: 暮らしを取り巻く状況（北海道）
+site_url: https://kmajinboo.github.io/hokkaido-kurashi/
+site_description: 経済指標と制度の動きから、生活相談の背景にありうる外的な一因を整理する月次の観測
+site_author: KANEKO Masato
+copyright: 作成：KANEKO Masato ／ 判定の基準は目安です。個々の相談者の原因を示すものではありません。
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: deep orange
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+not_in_nav: |
+  /reports/situation_*.md
+nav:
+  - ホーム: index.md
+  - 月次レポート: reports/index.md
+  - グラフで見る: charts.md
+  - 制度・出来事の年表: timeline.md
+  - 方法: methods.md
+  - データの出典と利用条件: sources.md
+  - ご意見をいただきたい点: questions.md
+  - このサイトについて: about.md

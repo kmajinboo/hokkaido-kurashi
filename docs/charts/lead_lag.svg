@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T12:04:26.402202</dc:date>
+    <dc:date>2026-11-05T12:28:36.882198</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -32,82 +32,82 @@ z
    <g id="patch_2">
     <path d="M 295.72 265.222828 
 L 565.2 265.222828 
-L 565.2 27.6 
-L 295.72 27.6 
+L 565.2 33.841406 
+L 295.72 33.841406 
 z
 " style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
-    <path d="M 295.72 38.401038 
-L 488.300067 38.401038 
-L 488.300067 63.815244 
-L 295.72 63.815244 
+    <path d="M 295.72 44.358744 
+L 488.300067 44.358744 
+L 488.300067 69.10542 
+L 295.72 69.10542 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="patch_4">
-    <path d="M 295.72 70.168795 
-L 494.171144 70.168795 
-L 494.171144 95.583002 
-L 295.72 95.583002 
+    <path d="M 295.72 75.292089 
+L 494.171144 75.292089 
+L 494.171144 100.038765 
+L 295.72 100.038765 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="patch_5">
-    <path d="M 295.72 101.936553 
-L 423.782232 101.936553 
-L 423.782232 127.350759 
-L 295.72 127.350759 
+    <path d="M 295.72 106.225434 
+L 423.782232 106.225434 
+L 423.782232 130.97211 
+L 295.72 130.97211 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="patch_6">
-    <path d="M 295.72 133.704311 
-L 407.038133 133.704311 
-L 407.038133 159.118517 
-L 295.72 159.118517 
+    <path d="M 295.72 137.158779 
+L 407.038133 137.158779 
+L 407.038133 161.905455 
+L 295.72 161.905455 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="patch_7">
-    <path d="M 295.72 165.472069 
-L 428.784612 165.472069 
-L 428.784612 190.886275 
-L 295.72 190.886275 
+    <path d="M 295.72 168.092124 
+L 428.784612 168.092124 
+L 428.784612 192.8388 
+L 295.72 192.8388 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="patch_8">
-    <path d="M 295.72 197.239826 
-L 426.879451 197.239826 
-L 426.879451 222.654033 
-L 295.72 222.654033 
+    <path d="M 295.72 199.025469 
+L 426.879451 199.025469 
+L 426.879451 223.772146 
+L 295.72 223.772146 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="patch_9">
-    <path d="M 295.72 229.007584 
-L 430.838014 229.007584 
-L 430.838014 254.42179 
-L 295.72 254.42179 
+    <path d="M 295.72 229.958815 
+L 430.838014 229.958815 
+L 430.838014 254.705491 
+L 295.72 254.705491 
 z
-" clip-path="url(#p3145a23802)" style="fill: #2f6690; opacity: 0.8"/>
+" clip-path="url(#pf375196797)" style="fill: #2f6690; opacity: 0.8"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <path d="M 295.72 265.222828 
-L 295.72 27.6 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+L 295.72 33.841406 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
       <defs>
-       <path id="m9709c54f53" d="M 0 0 
+       <path id="mb26a6b80d6" d="M 0 0 
 L 0 3.5 
 " style="stroke: #1f2a36; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m9709c54f53" x="295.72" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mb26a6b80d6" x="295.72" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -117,12 +117,12 @@ L 0 3.5
     <g id="xtick_2">
      <g id="line2d_3">
       <path d="M 342.586087 265.222828 
-L 342.586087 27.6 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+L 342.586087 33.841406 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m9709c54f53" x="342.586087" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mb26a6b80d6" x="342.586087" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -132,12 +132,12 @@ L 342.586087 27.6
     <g id="xtick_3">
      <g id="line2d_5">
       <path d="M 389.452174 265.222828 
-L 389.452174 27.6 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+L 389.452174 33.841406 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m9709c54f53" x="389.452174" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mb26a6b80d6" x="389.452174" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
@@ -147,12 +147,12 @@ L 389.452174 27.6
     <g id="xtick_4">
      <g id="line2d_7">
       <path d="M 436.318261 265.222828 
-L 436.318261 27.6 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+L 436.318261 33.841406 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m9709c54f53" x="436.318261" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mb26a6b80d6" x="436.318261" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
@@ -162,12 +162,12 @@ L 436.318261 27.6
     <g id="xtick_5">
      <g id="line2d_9">
       <path d="M 483.184348 265.222828 
-L 483.184348 27.6 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+L 483.184348 33.841406 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#m9709c54f53" x="483.184348" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mb26a6b80d6" x="483.184348" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
@@ -177,12 +177,12 @@ L 483.184348 27.6
     <g id="xtick_6">
      <g id="line2d_11">
       <path d="M 530.050435 265.222828 
-L 530.050435 27.6 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+L 530.050435 33.841406 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#m9709c54f53" x="530.050435" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mb26a6b80d6" x="530.050435" y="265.222828" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
@@ -196,118 +196,118 @@ L 530.050435 27.6
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_13">
-      <path d="M 295.72 51.108141 
-L 565.2 51.108141 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 56.732082 
+L 565.2 56.732082 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_14">
       <defs>
-       <path id="m91cd9e2999" d="M 0 0 
+       <path id="mda6655b05f" d="M 0 0 
 L -3.5 0 
 " style="stroke: #1f2a36; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="51.108141" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="56.732082" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="54.627672" transform="rotate(-0 288.72 54.627672)">円建ての原油価格（ドバイ） → 全国 消費者物価指数 灯油</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="60.251613" transform="rotate(-0 288.72 60.251613)">円建ての原油価格（ドバイ） → 全国 消費者物価指数 灯油</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_15">
-      <path d="M 295.72 82.875899 
-L 565.2 82.875899 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 87.665427 
+L 565.2 87.665427 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="82.875899" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="87.665427" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="86.39543" transform="rotate(-0 288.72 86.39543)">円建ての原油価格（ドバイ） → 北海道 消費者物価指数 他の光熱（灯油など）</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="91.184958" transform="rotate(-0 288.72 91.184958)">円建ての原油価格（ドバイ） → 北海道 消費者物価指数 他の光熱（灯油など）</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_17">
-      <path d="M 295.72 114.643656 
-L 565.2 114.643656 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 118.598772 
+L 565.2 118.598772 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_18">
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="114.643656" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="118.598772" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_10">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="118.163188" transform="rotate(-0 288.72 118.163188)">円建てのLNG価格（アジア） → 全国 消費者物価指数 電気代</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="122.118303" transform="rotate(-0 288.72 122.118303)">円建てのLNG価格（アジア） → 全国 消費者物価指数 電気代</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_19">
-      <path d="M 295.72 146.411414 
-L 565.2 146.411414 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 149.532117 
+L 565.2 149.532117 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_20">
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="146.411414" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="149.532117" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="149.930945" transform="rotate(-0 288.72 149.930945)">円建てのLNG価格（アジア） → 北海道 消費者物価指数 電気代</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="153.051648" transform="rotate(-0 288.72 153.051648)">円建てのLNG価格（アジア） → 北海道 消費者物価指数 電気代</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_21">
-      <path d="M 295.72 178.179172 
-L 565.2 178.179172 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 180.465462 
+L 565.2 180.465462 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_22">
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="178.179172" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="180.465462" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="181.698703" transform="rotate(-0 288.72 181.698703)">円建ての国際食料価格指数 → 全国 消費者物価指数 食料</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="183.984994" transform="rotate(-0 288.72 183.984994)">円建ての国際食料価格指数 → 全国 消費者物価指数 食料</text>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_23">
-      <path d="M 295.72 209.94693 
-L 565.2 209.94693 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 211.398808 
+L 565.2 211.398808 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_24">
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="209.94693" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="211.398808" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="213.466461" transform="rotate(-0 288.72 213.466461)">円建ての国際食料価格指数 → 北海道 消費者物価指数 食料</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="214.918339" transform="rotate(-0 288.72 214.918339)">円建ての国際食料価格指数 → 北海道 消費者物価指数 食料</text>
      </g>
     </g>
     <g id="ytick_7">
      <g id="line2d_25">
-      <path d="M 295.72 241.714687 
-L 565.2 241.714687 
-" clip-path="url(#p3145a23802)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 295.72 242.332153 
+L 565.2 242.332153 
+" clip-path="url(#pf375196797)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_26">
       <g>
-       <use xlink:href="#m91cd9e2999" x="295.72" y="241.714687" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mda6655b05f" x="295.72" y="242.332153" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
-      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="245.234219" transform="rotate(-0 288.72 245.234219)">ドル円為替レート（月平均） → 全国 消費者物価指数 生鮮食品を除く総合</text>
+      <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="288.72" y="245.851684" transform="rotate(-0 288.72 245.851684)">ドル円為替レート（月平均） → 全国 消費者物価指数 生鮮食品を除く総合</text>
      </g>
     </g>
    </g>
    <g id="patch_10">
     <path d="M 295.72 265.222828 
-L 295.72 27.6 
+L 295.72 33.841406 
 " style="fill: none; stroke: #1f2a36; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_11">
@@ -316,37 +316,37 @@ L 565.2 265.222828
 " style="fill: none; stroke: #1f2a36; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_15">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="490.643371" y="54.147203" transform="rotate(-0 490.643371 54.147203)">2か月（相関 0.82）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="490.643371" y="59.771144" transform="rotate(-0 490.643371 59.771144)">2か月（相関 0.82）</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="496.514448" y="85.914961" transform="rotate(-0 496.514448 85.914961)">2か月（相関 0.85）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="496.514448" y="90.704489" transform="rotate(-0 496.514448 90.704489)">2か月（相関 0.85）</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="426.125536" y="117.682719" transform="rotate(-0 426.125536 117.682719)">5か月（相関 0.55）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="426.125536" y="121.637835" transform="rotate(-0 426.125536 121.637835)">5か月（相関 0.55）</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="409.381438" y="149.450477" transform="rotate(-0 409.381438 149.450477)">5か月（相関 0.48）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="409.381438" y="152.57118" transform="rotate(-0 409.381438 152.57118)">5か月（相関 0.48）</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="431.127916" y="181.218234" transform="rotate(-0 431.127916 181.218234)">13か月（相関 0.57）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="431.127916" y="183.504525" transform="rotate(-0 431.127916 183.504525)">13か月（相関 0.57）</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="429.222755" y="212.985992" transform="rotate(-0 429.222755 212.985992)">12か月（相関 0.56）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="429.222755" y="214.43787" transform="rotate(-0 429.222755 214.43787)">12か月（相関 0.56）</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="433.181318" y="244.75375" transform="rotate(-0 433.181318 244.75375)">12か月（相関 0.58）</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="433.181318" y="245.371215" transform="rotate(-0 433.181318 245.371215)">12か月（相関 0.58）</text>
    </g>
-   <g id="text_22">
-    <text style="font-weight: 700; font-size: 12px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="295.72" y="21.6" transform="rotate(-0 295.72 21.6)">世界の動きが暮らしに届くまでの時間差</text>
-   </g>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="5.76" y="16.966594" transform="rotate(-0 5.76 16.966594)">世界の動きが暮らしに届くまでの時間差</text>
   </g>
   <g id="text_23">
    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #5a6570" x="5.76" y="317.196" transform="rotate(-0 5.76 317.196)">出典：本サイトの計算（前年比どうしの相関。原因を示すものではない）</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p3145a23802">
-   <rect x="295.72" y="27.6" width="269.48" height="237.622828"/>
+  <clipPath id="pf375196797">
+   <rect x="295.72" y="33.841406" width="269.48" height="231.381422"/>
   </clipPath>
  </defs>
 </svg>

@@ -48,11 +48,10 @@ CHARTS = {
                          "勤労者世帯を年収の低い順に5つに分け、手取り（可処分所得）の12か月平均を物価と並べたもの。"
                          "物価の線より下にある階級は、手取りが物価に追いついていない。"
                          "かっこ内は各階級の平均の年収（税・社会保険料を引く前）と手取り（月額）。どちらも直近12か月の平均。"),
-    "income_gap": ("勤労者世帯の年収階級別：手取りと物価の伸びの差（2021年10月〜）",
+    "income_gap": ("所得の層ごとの収入と物価の伸びの差（2021年10月〜）",
                    "棒が左（マイナス）にある階級ほど、手取りの伸びが物価に届いていない。どの所得の層まで物価高の影響が及んでいるかを見る。"
-                   "かっこ内は各階級の平均の年収（税・社会保険料を引く前）と手取り（月額）。どちらも直近12か月の平均。"
-                   "対象は二人以上の勤労者世帯だけで、最も低い階級でも世帯所得の中央値に近い層にあたる。"
-                   "相談で多い年収100万円前後の世帯は、この5階級よりさらに下にあり、この統計には含まれない。"),
+                   "低所得は、毎月の家計の統計がないため、主な収入源である最低賃金（フルタイム換算）と基礎年金の伸びで示す。"
+                   "中所得・高所得は二人以上の勤労者世帯の年収5階級で、かっこ内は各階級の平均の年収と手取り（月額）。"),
     "oil_kerosene": ("円建ての原油価格と北海道の灯油など（前年比）",
                      "世界の原油価格の動きが、おおむね2か月遅れて北海道の灯油などの物価に届く様子。"),
     "pension_prices": ("年金と北海道の物価（2021年4月＝100）",
@@ -117,6 +116,11 @@ def _event_lines(ax, events: pd.DataFrame, series_ids: set[str], start, end, key
             first = False
 
 
+def _title(fig, text: str) -> None:
+    """Title at the left edge of the whole figure, so long axis labels never push it off the page."""
+    fig.suptitle(text, x=0.01, ha="left", fontsize=12, fontweight="bold", color=INK)
+
+
 def _legend(ax, handles=None, labels=None) -> None:
     """Legend under the plot, so it never covers the lines."""
     if handles is None:
@@ -138,7 +142,7 @@ def chart_oil_kerosene(changes, path: Path):
     if oil.empty or fuel.empty:
         return None
     fig, ax = plt.subplots(figsize=(8, 4.2))
-    ax.set_title(CHARTS["oil_kerosene"][0])
+    _title(fig, CHARTS["oil_kerosene"][0])
     ax.plot(fuel.index, fuel.values, color=RED, lw=1.8, label="北海道 他の光熱（灯油など）（左目盛）")
     ax.axhline(0, color=INK, lw=0.6)
     ax.set_ylabel("前年比（%）")
@@ -163,7 +167,7 @@ def chart_pension_prices(changes, events, path: Path):
     prices = prices[prices.index >= base] / prices[base] * 100
     common = pension.index.intersection(prices.index)
     fig, ax = plt.subplots(figsize=(8, 4.2))
-    ax.set_title(CHARTS["pension_prices"][0])
+    _title(fig, CHARTS["pension_prices"][0])
     ax.plot(prices.index, prices.values, color=RED, lw=1.8, label="北海道 消費者物価指数 総合")
     ax.step(pension.index, pension.values, where="post", color=BLUE, lw=1.8, label="年金額（基礎年金）")
     ax.fill_between(common, pension[common].values, prices[common].values,
@@ -179,8 +183,8 @@ def chart_pension_prices(changes, events, path: Path):
     return _finish(fig, ax, path, "総務省「消費者物価指数」、厚生労働省（年金額の改定率）")
 
 
-QUINTILES = [("HH_DISPOSABLE_Q1_JP", "Ⅰ 年収が低い20%"), ("HH_DISPOSABLE_Q2_JP", "Ⅱ"), ("HH_DISPOSABLE_Q3_JP", "Ⅲ 中位"),
-             ("HH_DISPOSABLE_Q4_JP", "Ⅳ"), ("HH_DISPOSABLE_Q5_JP", "Ⅴ 年収が高い20%")]
+QUINTILES = [("HH_DISPOSABLE_Q1_JP", "Ⅰ"), ("HH_DISPOSABLE_Q2_JP", "Ⅱ"), ("HH_DISPOSABLE_Q3_JP", "Ⅲ"),
+             ("HH_DISPOSABLE_Q4_JP", "Ⅳ"), ("HH_DISPOSABLE_Q5_JP", "Ⅴ")]
 QUINTILE_COLORS = ["#8c2d04", "#cc4c02", "#ec7014", "#7a9cbf", "#2f6690"]
 INCOME_BASE = pd.Timestamp("2021-10-01")
 
@@ -199,16 +203,35 @@ def _monthly_level(changes, series_id: str) -> float | None:
     return float(s.iloc[-1]) if not s.empty else None
 
 
+def income_class(annual: float | None, ref: dict[str, str]) -> str:
+    """低所得／中所得／高所得 (目安): 低所得 up to the common 300万円 line,
+    中所得 up to twice the median, 高所得 above."""
+    try:
+        low = float(ref["low_income_line"])
+        high = float(ref["median"]) * float(ref.get("middle_high_ratio", 2.0))
+    except (KeyError, ValueError):
+        return ""
+    if annual is None:
+        return ""
+    if annual <= low:
+        return "低所得"
+    return "中所得" if annual <= high else "高所得"
+
+
 def quintile_label(changes, series_id: str, label: str) -> str:
-    """e.g. 'Ⅰ 年収が低い20%（年収 約450万円・手取り 月約32万円）'."""
+    """e.g. 'Ⅰ 中所得（年収 約415万円・手取り 月約32万円）'."""
     parts = []
     annual = _monthly_level(changes, series_id.replace("HH_DISPOSABLE_", "HH_ANNUAL_INCOME_"))
-    if annual and annual >= 10:  # 万円
+    if annual is not None and annual < 10:
+        annual = None  # not a 万円 amount (test data)
+    klass = income_class(annual, income_reference())
+    if annual:
         parts.append(f"年収 約{annual:.0f}万円")
     level = _monthly_level(changes, series_id)
     if level and level >= 10000:  # yen (skips test data that is not a yen amount)
         parts.append(f"手取り 月約{level / 10000:.0f}万円")
-    return f"{label}（{'・'.join(parts)}）" if parts else label
+    head = f"{label} {klass}" if klass else label
+    return f"{head}（{'・'.join(parts)}）" if parts else head
 
 
 def income_gaps(changes) -> pd.DataFrame:
@@ -235,7 +258,7 @@ def chart_income_gradation(changes, path: Path):
     if prices.empty or len(lines) < 2:
         return None
     fig, ax = plt.subplots(figsize=(8, 4.4))
-    ax.set_title(CHARTS["income_gradation"][0])
+    _title(fig, CHARTS["income_gradation"][0])
     ax.plot(prices.index, prices.values, color=INK, lw=2.4, ls="--", label="全国 消費者物価指数 総合（12か月平均）")
     for sid, label, color, s in lines:
         ax.plot(s.index, s.values, color=color, lw=1.6, label=f"手取り {label}")
@@ -258,35 +281,75 @@ def income_reference(path: Path = REFERENCE_PATH) -> dict[str, str]:
     return dict(zip(frame["key"], frame["value"]))
 
 
+LOW_COLOR = "#5c1a00"
+
+
+def low_income_gaps(changes, ref: dict[str, str]) -> pd.DataFrame:
+    """Low income has no household survey series, so its main income sources stand in:
+    the Hokkaido minimum wage (full-time equivalent) and the basic pension, against prices."""
+    rows = []
+    for sid, price_id, label in (
+        ("HKD_MIN_WAGE", "CPI_HKD_ALL", "最低賃金で働く人"),
+        ("PENSION_INDEX_JP", "CPI_JP_ALL", "基礎年金だけで暮らす人"),
+    ):
+        income, prices = _indexed_12m(changes, sid), _indexed_12m(changes, price_id)
+        common = income.index.intersection(prices.index)
+        if common.empty:
+            continue
+        last = common[-1]
+        detail = ""
+        try:
+            if sid == "HKD_MIN_WAGE":
+                wage = _series(changes, sid).dropna().iloc[-1]
+                detail = f"（北海道 時給{wage:,.0f}円、フルタイムで年約{wage * float(ref['fulltime_hours']) / 10000:.0f}万円）"
+            else:
+                detail = f"（満額 年約{float(ref['basic_pension_monthly']) * 12 / 10000:.0f}万円）"
+        except (KeyError, ValueError, IndexError):
+            pass
+        rows.append({"series_id": sid, "label": f"低所得 {label}{detail}", "color": LOW_COLOR, "date": last,
+                     "income_rise": income[last] - 100, "price_rise": prices[last] - 100,
+                     "gap": income[last] - prices[last], "income_word": "収入"})
+    return pd.DataFrame(rows)
+
+
 def chart_income_gap(changes, path: Path):
+    ref = income_reference()
     gaps = income_gaps(changes)
     if len(gaps) < 2:
         return None
-    fig, ax = plt.subplots(figsize=(8, 0.5 * len(gaps) + 2.2))
-    ax.set_title(CHARTS["income_gap"][0])
+    gaps["income_word"] = "手取り"
+    gaps = pd.concat([low_income_gaps(changes, ref), gaps], ignore_index=True)
+    fig, ax = plt.subplots(figsize=(10, 0.5 * len(gaps) + 2.4))
+    _title(fig, CHARTS["income_gap"][0])
     y = np.arange(len(gaps))
     ax.barh(y, gaps["gap"], color=gaps["color"])
     span = max(abs(gaps["gap"]).max(), 1) * 1.6
-    for i, r in gaps.iterrows():
+    for i, r in zip(y, gaps.to_dict("records")):
         # the value next to the bar end, the breakdown in a column on the right
         ax.text(r["gap"] + (0.08 if r["gap"] >= 0 else -0.08) * span, i, f"{r['gap']:+.1f}",
                 va="center", ha="left" if r["gap"] >= 0 else "right", fontsize=9, color=INK, fontweight="bold")
-        ax.text(1.02, i, f"手取り{r['income_rise']:+.1f}%\n物価{r['price_rise']:+.1f}%",
+        ax.text(1.02, i, f"{r['income_word']}{r['income_rise']:+.1f}%\n物価{r['price_rise']:+.1f}%",
                 transform=ax.get_yaxis_transform(), va="center", ha="left", fontsize=8, color="#5a6570")
     ax.axvline(0, color=INK, lw=0.8)
+    n_low = int((gaps["color"] == LOW_COLOR).sum())
+    if n_low:
+        ax.axhline(n_low - 0.5, color=INK, lw=0.6, ls=":")
     ax.set_yticks(y, gaps["label"])
     ax.invert_yaxis()
     ax.set_xlim(-span * 1.25, span * 1.25)
     ax.set_xlabel(f"ポイント（{gaps['date'].iloc[-1]:%Y年%m月}までの12か月平均で比較）")
-    ref = income_reference()
     if ref:
         fig.text(0.01, 0.045,
                  f"所得の物差し（{ref['year']}年、国民生活基礎調査）：世帯所得の中央値 {ref['median']}万円、"
-                 f"貧困線 {ref['poverty_line']}万円（等価可処分所得）、\n所得200万円未満の世帯 {ref['under_200']}%。"
-                 "この5階級は二人以上の勤労者世帯だけを分けたもので、年収100万円前後の世帯は含まれない。",
+                 f"貧困線 {ref['poverty_line']}万円（等価可処分所得）、所得200万円未満の世帯 {ref['under_200']}%。\n"
+                 f"区分の目安：低所得＝年収{ref.get('low_income_line', '300')}万円以下"
+                 f"（住民税非課税の目安は単身{ref.get('nontax_single', '')}万・夫婦{ref.get('nontax_couple', '')}万・"
+                 f"3人約{ref.get('nontax_3', '')}万・4人約{ref.get('nontax_4', '')}万円）、\n"
+                 f"中所得＝中央値の{float(ref.get('middle_high_ratio', 2.0)):.0f}倍（約{float(ref['median']) * float(ref.get('middle_high_ratio', 2.0)):.0f}万円）まで、"
+                 "高所得＝それより上。低所得の世帯の手取りは毎月の統計がないため、主な収入源（最低賃金・基礎年金）の伸びで示す。",
                  fontsize=8, color=INK)
-    return _finish(fig, ax, path, "総務省「家計調査」（勤労者世帯・年間収入五分位）、「消費者物価指数」、厚生労働省「国民生活基礎調査」",
-                   bottom=0.13 if ref else 0.04)
+    return _finish(fig, ax, path, "総務省「家計調査」「消費者物価指数」、厚生労働省「国民生活基礎調査」・年金額、北海道労働局（最低賃金）",
+                   bottom=0.14 if ref else 0.04)
 
 
 def chart_fuel_subsidies(changes, events, path: Path):
@@ -295,7 +358,7 @@ def chart_fuel_subsidies(changes, events, path: Path):
     if fuel.empty:
         return None
     fig, ax = plt.subplots(figsize=(8, 4.2))
-    ax.set_title(CHARTS["fuel_subsidies"][0])
+    _title(fig, CHARTS["fuel_subsidies"][0])
     _bands(ax, events, {"CPI_HKD_OTHER_FUEL", "KEROSENE_PRICE_HKD"}, fuel.index.min(), fuel.index.max(), "国の燃料補助の期間")
     ax.plot(fuel.index, fuel.values, color=RED, lw=1.8, label="北海道 他の光熱（灯油など）")
     ax.set_ylabel("指数（2025年＝100）")
@@ -309,7 +372,7 @@ def chart_electricity(changes, events, path: Path):
     if elec.empty:
         return None
     fig, ax = plt.subplots(figsize=(8, 4.2))
-    ax.set_title(CHARTS["electricity"][0])
+    _title(fig, CHARTS["electricity"][0])
     _bands(ax, events, {"CPI_HKD_ELEC"}, elec.index.min(), elec.index.max(), "国の電気・ガス料金の値引き")
     _event_lines(ax, events, {"CPI_HKD_ELEC"}, elec.index.min(), elec.index.max(), "北海道電力", "北海道電力の料金改定")
     ax.plot(elec.index, elec.values, color=GOLD, lw=1.8, label="北海道 電気代")
@@ -340,7 +403,7 @@ def chart_yoy_heatmap(changes, path: Path):
         return None
     data = np.array(rows, dtype=float)
     fig, ax = plt.subplots(figsize=(8, 0.42 * len(rows) + 1.4))
-    ax.set_title(CHARTS["yoy_heatmap"][0])
+    _title(fig, CHARTS["yoy_heatmap"][0])
     limit = 10.0
     image = ax.imshow(np.clip(data, -limit, limit), aspect="auto", cmap="RdBu_r", vmin=-limit, vmax=limit)
     ax.set_yticks(range(len(labels)), labels)
@@ -360,7 +423,7 @@ def chart_lead_lag(lags: pd.DataFrame, path: Path):
         return None
     labels = [f"{u} → {d}" for u, d in zip(ok["upstream_name"], ok["downstream_name"])]
     fig, ax = plt.subplots(figsize=(8, 0.45 * len(ok) + 1.3))
-    ax.set_title(CHARTS["lead_lag"][0])
+    _title(fig, CHARTS["lead_lag"][0])
     y = np.arange(len(ok))
     ax.barh(y, ok["correlation"], color=BLUE, alpha=0.8)
     for i, (corr, lag) in enumerate(zip(ok["correlation"], ok["best_lag_months"])):

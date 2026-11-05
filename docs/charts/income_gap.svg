@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="352.8pt" viewBox="0 0 720 352.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="424.8pt" viewBox="0 0 720 424.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T12:28:35.702154</dc:date>
+    <dc:date>2026-11-05T12:33:25.406816</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,8 +21,8 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 352.8 
-L 720 352.8 
+   <path d="M 0 424.8 
+L 720 424.8 
 L 720 0 
 L 0 0 
 z
@@ -30,316 +30,351 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 252.52 261.608 
-L 646.92 261.608 
+    <path d="M 367.66375 323.528 
+L 646.92 323.528 
 L 646.92 33.841406 
-L 252.52 33.841406 
+L 367.66375 33.841406 
 z
 " style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
-    <path d="M 449.72 44.194433 
-L 379.191508 44.194433 
-L 379.191508 78.704523 
-L 449.72 78.704523 
+    <path d="M 507.291875 47.008979 
+L 549.349716 47.008979 
+L 549.349716 77.991502 
+L 507.291875 77.991502 
 z
-" clip-path="url(#p95b6683c8d)" style="fill: #8c2d04"/>
+" clip-path="url(#p04fc089894)" style="fill: #5c1a00"/>
    </g>
    <g id="patch_4">
-    <path d="M 449.72 87.332046 
-L 511.616856 87.332046 
-L 511.616856 121.842136 
-L 449.72 121.842136 
+    <path d="M 507.291875 85.737133 
+L 437.477813 85.737133 
+L 437.477813 116.719656 
+L 507.291875 116.719656 
 z
-" clip-path="url(#p95b6683c8d)" style="fill: #cc4c02"/>
+" clip-path="url(#p04fc089894)" style="fill: #5c1a00"/>
    </g>
    <g id="patch_5">
-    <path d="M 449.72 130.469658 
-L 398.884312 130.469658 
-L 398.884312 164.979748 
-L 449.72 164.979748 
+    <path d="M 507.291875 124.465287 
+L 479.156016 124.465287 
+L 479.156016 155.447811 
+L 507.291875 155.447811 
 z
-" clip-path="url(#p95b6683c8d)" style="fill: #ec7014"/>
+" clip-path="url(#p04fc089894)" style="fill: #8c2d04"/>
    </g>
    <g id="patch_6">
-    <path d="M 449.72 173.607271 
-L 351.12 173.607271 
-L 351.12 208.117361 
-L 449.72 208.117361 
+    <path d="M 507.291875 163.193441 
+L 531.984325 163.193441 
+L 531.984325 194.175965 
+L 507.291875 194.175965 
 z
-" clip-path="url(#p95b6683c8d)" style="fill: #7a9cbf"/>
+" clip-path="url(#p04fc089894)" style="fill: #cc4c02"/>
    </g>
    <g id="patch_7">
-    <path d="M 449.72 216.744883 
-L 355.541414 216.744883 
-L 355.541414 251.254973 
-L 449.72 251.254973 
+    <path d="M 507.291875 201.921596 
+L 487.012046 201.921596 
+L 487.012046 232.904119 
+L 507.291875 232.904119 
 z
-" clip-path="url(#p95b6683c8d)" style="fill: #2f6690"/>
+" clip-path="url(#p04fc089894)" style="fill: #ec7014"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 507.291875 240.64975 
+L 467.957477 240.64975 
+L 467.957477 271.632273 
+L 507.291875 271.632273 
+z
+" clip-path="url(#p04fc089894)" style="fill: #7a9cbf"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 507.291875 279.377904 
+L 469.721308 279.377904 
+L 469.721308 310.360428 
+L 507.291875 310.360428 
+z
+" clip-path="url(#p04fc089894)" style="fill: #2f6690"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path d="M 280.756393 261.608 
-L 280.756393 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 394.951076 323.528 
+L 394.951076 33.841406 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
       <defs>
-       <path id="mbc9ff8e19b" d="M 0 0 
+       <path id="mdf937a4f82" d="M 0 0 
 L 0 3.5 
 " style="stroke: #1f2a36; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mbc9ff8e19b" x="280.756393" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mdf937a4f82" x="394.951076" y="323.528" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="280.756393" y="277.406828" transform="rotate(-0 280.756393 277.406828)">−6</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="394.951076" y="339.326828" transform="rotate(-0 394.951076 339.326828)">−10</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
-      <path d="M 337.077596 261.608 
-L 337.077596 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 451.121475 323.528 
+L 451.121475 33.841406 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#mbc9ff8e19b" x="337.077596" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mdf937a4f82" x="451.121475" y="323.528" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="337.077596" y="277.406828" transform="rotate(-0 337.077596 277.406828)">−4</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="451.121475" y="339.326828" transform="rotate(-0 451.121475 339.326828)">−5</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_5">
-      <path d="M 393.398798 261.608 
-L 393.398798 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 507.291875 323.528 
+L 507.291875 33.841406 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#mbc9ff8e19b" x="393.398798" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mdf937a4f82" x="507.291875" y="323.528" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="393.398798" y="277.406828" transform="rotate(-0 393.398798 277.406828)">−2</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="507.291875" y="339.326828" transform="rotate(-0 507.291875 339.326828)">0</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_7">
-      <path d="M 449.72 261.608 
-L 449.72 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 563.462275 323.528 
+L 563.462275 33.841406 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mbc9ff8e19b" x="449.72" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mdf937a4f82" x="563.462275" y="323.528" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="449.72" y="277.406828" transform="rotate(-0 449.72 277.406828)">0</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="563.462275" y="339.326828" transform="rotate(-0 563.462275 339.326828)">5</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_9">
-      <path d="M 506.041202 261.608 
-L 506.041202 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 619.632674 323.528 
+L 619.632674 33.841406 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#mbc9ff8e19b" x="506.041202" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#mdf937a4f82" x="619.632674" y="323.528" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="506.041202" y="277.406828" transform="rotate(-0 506.041202 277.406828)">2</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="619.632674" y="339.326828" transform="rotate(-0 619.632674 339.326828)">10</text>
      </g>
     </g>
-    <g id="xtick_6">
-     <g id="line2d_11">
-      <path d="M 562.362404 261.608 
-L 562.362404 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_12">
-      <g>
-       <use xlink:href="#mbc9ff8e19b" x="562.362404" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="562.362404" y="277.406828" transform="rotate(-0 562.362404 277.406828)">4</text>
-     </g>
-    </g>
-    <g id="xtick_7">
-     <g id="line2d_13">
-      <path d="M 618.683607 261.608 
-L 618.683607 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_14">
-      <g>
-       <use xlink:href="#mbc9ff8e19b" x="618.683607" y="261.608" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_7">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="618.683607" y="277.406828" transform="rotate(-0 618.683607 277.406828)">6</text>
-     </g>
-    </g>
-    <g id="text_8">
-     <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="449.72" y="291.406828" transform="rotate(-0 449.72 291.406828)">ポイント（2026年08月までの12か月平均で比較）</text>
+    <g id="text_6">
+     <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #1f2a36" x="507.291875" y="353.326828" transform="rotate(-0 507.291875 353.326828)">ポイント（2026年08月までの12か月平均で比較）</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_15">
-      <path d="M 252.52 61.449478 
-L 646.92 61.449478 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+     <g id="line2d_11">
+      <path d="M 367.66375 62.50024 
+L 646.92 62.50024 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
-     <g id="line2d_16">
+     <g id="line2d_12">
       <defs>
-       <path id="mb7bf736406" d="M 0 0 
+       <path id="me784f6c76a" d="M 0 0 
 L -3.5 0 
 " style="stroke: #1f2a36; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mb7bf736406" x="252.52" y="61.449478" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="62.50024" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_9">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="245.52" y="65.848892" transform="rotate(-0 245.52 65.848892)">Ⅰ 中所得（年収 約415万円・手取り 月約32万円）</text>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="66.899654" transform="rotate(-0 360.66375 66.899654)">低所得 最低賃金で働く人（北海道 時給1,131円、フルタイムで年約228万円）</text>
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_17">
-      <path d="M 252.52 104.587091 
-L 646.92 104.587091 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+     <g id="line2d_13">
+      <path d="M 367.66375 101.228395 
+L 646.92 101.228395 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
-     <g id="line2d_18">
+     <g id="line2d_14">
       <g>
-       <use xlink:href="#mb7bf736406" x="252.52" y="104.587091" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="101.228395" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_10">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="245.52" y="108.986505" transform="rotate(-0 245.52 108.986505)">Ⅱ 中所得（年収 約615万円・手取り 月約43万円）</text>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="105.627809" transform="rotate(-0 360.66375 105.627809)">低所得 基礎年金だけで暮らす人（満額 年約83万円）</text>
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_19">
-      <path d="M 252.52 147.724703 
-L 646.92 147.724703 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+     <g id="line2d_15">
+      <path d="M 367.66375 139.956549 
+L 646.92 139.956549 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
-     <g id="line2d_20">
+     <g id="line2d_16">
       <g>
-       <use xlink:href="#mb7bf736406" x="252.52" y="147.724703" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="139.956549" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_11">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="245.52" y="152.124117" transform="rotate(-0 245.52 152.124117)">Ⅲ 中所得（年収 約765万円・手取り 月約50万円）</text>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="144.355963" transform="rotate(-0 360.66375 144.355963)">Ⅰ 中所得（年収 約415万円・手取り 月約32万円）</text>
      </g>
     </g>
     <g id="ytick_4">
-     <g id="line2d_21">
-      <path d="M 252.52 190.862316 
-L 646.92 190.862316 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+     <g id="line2d_17">
+      <path d="M 367.66375 178.684703 
+L 646.92 178.684703 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
-     <g id="line2d_22">
+     <g id="line2d_18">
       <g>
-       <use xlink:href="#mb7bf736406" x="252.52" y="190.862316" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="178.684703" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_12">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="245.52" y="195.26173" transform="rotate(-0 245.52 195.26173)">Ⅳ 高所得（年収 約942万円・手取り 月約60万円）</text>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="183.084117" transform="rotate(-0 360.66375 183.084117)">Ⅱ 中所得（年収 約615万円・手取り 月約43万円）</text>
      </g>
     </g>
     <g id="ytick_5">
+     <g id="line2d_19">
+      <path d="M 367.66375 217.412857 
+L 646.92 217.412857 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="217.412857" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="221.812271" transform="rotate(-0 360.66375 221.812271)">Ⅲ 中所得（年収 約765万円・手取り 月約50万円）</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_21">
+      <path d="M 367.66375 256.141012 
+L 646.92 256.141012 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="256.141012" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="260.540426" transform="rotate(-0 360.66375 260.540426)">Ⅳ 高所得（年収 約942万円・手取り 月約60万円）</text>
+     </g>
+    </g>
+    <g id="ytick_7">
      <g id="line2d_23">
-      <path d="M 252.52 233.999928 
-L 646.92 233.999928 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
+      <path d="M 367.66375 294.869166 
+L 646.92 294.869166 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #d8dde3; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_24">
       <g>
-       <use xlink:href="#mb7bf736406" x="252.52" y="233.999928" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
+       <use xlink:href="#me784f6c76a" x="367.66375" y="294.869166" style="fill: #1f2a36; stroke: #1f2a36; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="245.52" y="238.399342" transform="rotate(-0 245.52 238.399342)">Ⅴ 高所得（年収 約1414万円・手取り 月約85万円）</text>
+      <text style="font-size: 10px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="360.66375" y="299.26858" transform="rotate(-0 360.66375 299.26858)">Ⅴ 高所得（年収 約1414万円・手取り 月約85万円）</text>
      </g>
     </g>
    </g>
    <g id="line2d_25">
-    <path d="M 449.72 261.608 
-L 449.72 33.841406 
-" clip-path="url(#p95b6683c8d)" style="fill: none; stroke: #1f2a36; stroke-width: 0.8; stroke-linecap: square"/>
+    <path d="M 507.291875 323.528 
+L 507.291875 33.841406 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke: #1f2a36; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
-   <g id="patch_8">
-    <path d="M 252.52 261.608 
-L 252.52 33.841406 
+   <g id="line2d_26">
+    <path d="M 367.66375 120.592472 
+L 646.92 120.592472 
+" clip-path="url(#p04fc089894)" style="fill: none; stroke-dasharray: 0.6,0.99; stroke-dashoffset: 0; stroke: #1f2a36; stroke-width: 0.6"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 367.66375 323.528 
+L 367.66375 33.841406 
 " style="fill: none; stroke: #1f2a36; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="patch_9">
-    <path d="M 252.52 261.608 
-L 646.92 261.608 
+   <g id="patch_11">
+    <path d="M 367.66375 323.528 
+L 646.92 323.528 
 " style="fill: none; stroke: #1f2a36; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_14">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="366.570708" y="64.868424" transform="rotate(-0 366.570708 64.868424)">-2.5</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="558.285916" y="65.919186" transform="rotate(-0 558.285916 65.919186)">+3.7</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 58.488541)">手取り+11.0%</text>
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 70.488541)">物価+13.5%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 59.539303)">収入+20.9%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 71.539303)">物価+17.2%</text>
    </g>
    <g id="text_16">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="524.237656" y="108.006036" transform="rotate(-0 524.237656 108.006036)">+2.2</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="428.541613" y="104.64734" transform="rotate(-0 428.541613 104.64734)">-6.2</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 101.626153)">手取り+15.7%</text>
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 113.626153)">物価+13.5%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 98.267457)">収入+8.2%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 110.267457)">物価+14.4%</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="386.263512" y="151.143648" transform="rotate(-0 386.263512 151.143648)">-1.8</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="470.219816" y="143.375494" transform="rotate(-0 470.219816 143.375494)">-2.5</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 144.763766)">手取り+11.7%</text>
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 156.763766)">物価+13.5%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 136.995611)">手取り+11.0%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 148.995611)">物価+13.5%</text>
    </g>
    <g id="text_20">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="338.4992" y="194.281261" transform="rotate(-0 338.4992 194.281261)">-3.5</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="540.920525" y="182.103648" transform="rotate(-0 540.920525 182.103648)">+2.2</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 187.901378)">手取り+10.0%</text>
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 199.901378)">物価+13.5%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 175.723766)">手取り+15.7%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 187.723766)">物価+13.5%</text>
    </g>
    <g id="text_22">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="342.920614" y="237.418873" transform="rotate(-0 342.920614 237.418873)">-3.3</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="478.075846" y="220.831803" transform="rotate(-0 478.075846 220.831803)">-1.8</text>
    </g>
    <g id="text_23">
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 231.038991)">手取り+10.2%</text>
-    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(654.808 243.038991)">物価+13.5%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 214.45192)">手取り+11.7%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 226.45192)">物価+13.5%</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="459.021277" y="259.559957" transform="rotate(-0 459.021277 259.559957)">-3.5</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 253.180074)">手取り+10.0%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 265.180074)">物価+13.5%</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #1f2a36" x="460.785108" y="298.288111" transform="rotate(-0 460.785108 298.288111)">-3.3</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 291.908228)">手取り+10.2%</text>
+    <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #5a6570" transform="translate(652.505125 303.908228)">物価+13.5%</text>
    </g>
   </g>
-  <g id="text_24">
-   <text style="font-weight: 700; font-size: 12px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="7.2" y="17.614594" transform="rotate(-0 7.2 17.614594)">所得の層ごとの収入と物価の伸びの差（2021年10月〜）</text>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #1f2a36" x="7.2" y="19.054594" transform="rotate(-0 7.2 19.054594)">所得の層ごとの収入と物価の伸びの差（2021年10月〜）</text>
   </g>
-  <g id="text_25">
-   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #1f2a36" transform="translate(7.2 312.924)">所得の物差し（2024年、国民生活基礎調査）：世帯所得の中央値 451万円、貧困線 138万円（等価可処分所得）、所得200万円未満の世帯 18.0%。</text>
-   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #1f2a36" transform="translate(7.2 324.924)">区分の目安：低所得＝年収300万円以下（住民税非課税の目安は単身110万・夫婦166万・3人約205万・4人約255万円）、</text>
-   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #1f2a36" transform="translate(7.2 336.924)">中所得＝中央値の2倍（約902万円）まで、高所得＝それより上。低所得の世帯の手取りは毎月の統計がないため、主な収入源（最低賃金・基礎年金）の伸びで示す。</text>
+  <g id="text_29">
+   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #1f2a36" transform="translate(7.2 381.684)">所得の物差し（2024年、国民生活基礎調査）：世帯所得の中央値 451万円、貧困線 138万円（等価可処分所得）、所得200万円未満の世帯 18.0%。</text>
+   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #1f2a36" transform="translate(7.2 393.684)">区分の目安：低所得＝年収300万円以下（住民税非課税の目安は単身110万・夫婦166万・3人約205万・4人約255万円）、</text>
+   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #1f2a36" transform="translate(7.2 405.684)">中所得＝中央値の2倍（約902万円）まで、高所得＝それより上。低所得の世帯の手取りは毎月の統計がないため、主な収入源（最低賃金・基礎年金）の伸びで示す。</text>
   </g>
-  <g id="text_26">
-   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #5a6570" x="7.2" y="349.272" transform="rotate(-0 7.2 349.272)">出典：総務省「家計調査」「消費者物価指数」、厚生労働省「国民生活基礎調査」・年金額、北海道労働局（最低賃金）</text>
+  <g id="text_30">
+   <text style="font-size: 8px; font-family: 'Yu Gothic', 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #5a6570" x="7.2" y="420.552" transform="rotate(-0 7.2 420.552)">出典：総務省「家計調査」「消費者物価指数」、厚生労働省「国民生活基礎調査」・年金額、北海道労働局（最低賃金）</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p95b6683c8d">
-   <rect x="252.52" y="33.841406" width="394.4" height="227.766594"/>
+  <clipPath id="p04fc089894">
+   <rect x="367.66375" y="33.841406" width="279.25625" height="289.686594"/>
   </clipPath>
  </defs>
 </svg>

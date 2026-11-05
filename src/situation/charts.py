@@ -234,6 +234,14 @@ def quintile_label(changes, series_id: str, label: str) -> str:
     return f"{head}（{'・'.join(parts)}）" if parts else head
 
 
+def _indexed_point(changes, series_id: str) -> pd.Series:
+    """Monthly values indexed to INCOME_BASE = 100 (no averaging)."""
+    s = _series(changes, series_id).dropna()
+    if s.empty or INCOME_BASE not in s.index:
+        return pd.Series(dtype=float)
+    return s[s.index >= INCOME_BASE] / s[INCOME_BASE] * 100
+
+
 def income_gaps(changes) -> pd.DataFrame:
     """Per quintile: rise of take-home pay and of prices (both 12-month averages) since INCOME_BASE."""
     prices = _indexed_12m(changes, "CPI_JP_ALL")
@@ -292,7 +300,9 @@ def low_income_gaps(changes, ref: dict[str, str]) -> pd.DataFrame:
         ("HKD_MIN_WAGE", "CPI_HKD_ALL", "最低賃金で働く人"),
         ("PENSION_INDEX_JP", "CPI_JP_ALL", "基礎年金だけで暮らす人"),
     ):
-        income, prices = _indexed_12m(changes, sid), _indexed_12m(changes, price_id)
+        # these change once a year (step series that start in 2021), so compare the latest month
+        # with the base month directly instead of 12-month averages
+        income, prices = _indexed_point(changes, sid), _indexed_point(changes, price_id)
         common = income.index.intersection(prices.index)
         if common.empty:
             continue
